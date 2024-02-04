@@ -17,14 +17,14 @@ BA(dbh float64, denominator int, plotnum int, round int) (n float32, err error)
 
 ### Example
 ```GO
-    //DBH = 14.5
-    //Denominator = 20
-    //# of plots = 2
-	n, err := ftk.TPA(14.5, 20, 2, 1)
-	if err != nil {
-		log.Fatalln(err)
-	} else {
-		fmt.Println(n)
-	}
+//DBH = 14.5
+//Denominator = 20
+//# of plots = 2
+n, err := ftk.TPA(14.5, 20, 2, 1)
+if err != nil {
+	log.Fatalln(err)
+} else {
+	fmt.Println(n)
+}
 ```
 
